@@ -20,7 +20,12 @@ class EventForm extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    this.props.createEvent(this.state);
+    if (this.state.id) {
+      this.props.updateEvent(this.state);
+    }else{
+
+      this.props.createEvent(this.state);
+    }
     
   };
 
