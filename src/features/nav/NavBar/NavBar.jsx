@@ -7,8 +7,8 @@ class NavBar extends Component {
       <Menu inverted fixed="top">
         <Container>
           <Menu.Item header>
-            <img src="assets/logo.png" alt="logo" />
-            Re-vents
+            <img src="/assets/logo.png" alt="logo" />
+            Event Posting App
           </Menu.Item>
           <Menu.Item name="Events" />
           <Menu.Item>
