@@ -39,12 +39,12 @@ const eventsFromDashboard = [
     city: "London, UK",
     venue: "Punch & Judy, Henrietta Street, London, UK",
     hostedBy: "Tom",
-    hostPhotoURL: "https://randomuser.me/api/portraits/men/22.jpg",
+    hostPhotoURL: "https://randomuser.me/api/portraits/men/11.jpg",
     attendees: [
       {
         id: "b",
         name: "Tom",
-        photoURL: "https://randomuser.me/api/portraits/men/22.jpg"
+        photoURL: "https://randomuser.me/api/portraits/men/11.jpg"
       },
       {
         id: "a",
